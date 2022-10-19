@@ -1,0 +1,57 @@
+.singlecart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #9c818196;
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 6px black;
+}
+.image{
+    align-self: center;
+    width: 40px;
+    height: 40px;
+
+}
+.itemName{
+    align-self: center;
+    flex:1 0 40px;
+    /* background: white; */
+    padding: 10px 20px ;
+}
+.price{
+    flex:0 0 40px;
+    align-self: center;
+    /* background: white; */
+    padding: 10px 20px ;
+}
+/* produc items */
+
+.Items{
+    margin: 20px;
+    width: 200px;
+    height: 220px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 0px 4px grey;
+}
+.image2{
+    margin: 2px 20px 0px 20px;
+    width: 160px;
+    height: 120px;
+    background: #000;
+}
+.title{
+    display: inline;
+    font-weight: 600;
+    text-align: center;
+}
+.price1{
+    display: inline;
+    font-weight: 600;
+    padding: 0px 20px;
+}
